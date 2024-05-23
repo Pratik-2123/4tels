@@ -10,8 +10,8 @@ import {animate, motion, useAnimate, useScroll, useTransform} from "framer-motio
 import download from '../../assets/Download_details.png'
 import book from '../../assets/Book_now.png'
 import fill from '../../assets/Fill_details.png'
-
 import React, { useRef } from 'react'
+import { Link } from 'react-router-dom'
 
 
 const Programs = () => {
@@ -39,11 +39,12 @@ const Programs = () => {
       </motion.div> 
 
       <motion.div className="program" whileHover={{scale: 1.2}}>
+        <Link to='/booknow'>
         <img src={city_clutch} alt="" />
         <div className="caption">
             <img src={book} alt="" />
             <p>Book Now</p>
-        </div>
+        </div></Link>
       </motion.div>
 
       <motion.div className="program" whileHover={{scale: 1.2}}>

@@ -1,9 +1,8 @@
 import React from 'react'
 
-const book = () => {
-    return (
-
-        <div class="flex items-center min-h-screen bg-gray-100 dark:bg-gray-900">
+function BookNow() {
+  return (
+    <div class="flex items-center min-h-screen bg-gray-100 dark:bg-gray-900">
             <div class="container mx-auto">
                 <div class="max-w-xl mx-auto my-10 bg-white p-5 rounded-md shadow-sm">
                     <div class="text-center">
@@ -58,7 +57,7 @@ const book = () => {
                 </div>
             </div>
         </div>
-    )
+  )
 }
 
-export default book
+export default BookNow

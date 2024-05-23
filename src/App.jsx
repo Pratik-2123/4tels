@@ -1,38 +1,25 @@
-import React, { useState } from 'react'
-import Navbar from './Components/Navbar/Navbar'
-import Hero from './Components/Hero/Hero'
-import Programs from './Components/Programs/Programs'
-import Title from './Components/Title/Title'
-import About from './Components/About/About'
-import Campus from './Components/Campus/Campus'
-import Testimonials from './Components/Testimonials/Testimonials'
-import Contact from './Components/Contact/Contact'
-import Footer from './Components/Footer/Footer'
-import VideoPlayer from './Components/Video Player/VideoPlayer'
+import React from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './Components/Home';
+import BookNow from './Components/Book Now/BookNow';
+
 
 const App = () => {
 
-  const[playState,setPlayState] = useState(false)
+  // const [playState, setPlayState] = useState(false)
 
   return (
+    <>
     <div>
-      <Navbar />
-      <Hero />
-      <div className="container">
-      <Title subtitle={"Our Program"} title = {"What we Offer"}/>
-      <Programs />
-      <About setPlayState = {setPlayState}/>
-      <Title subtitle={"Products Gallery"} title = {"Car Photos"}/>
-      <Campus/>
-      <Title subtitle={"Founder"} title={"Mr. Vikas K Patel"}/>
-      <Testimonials/>
-      <Title subtitle={"Contact Us"} title={"Get in Touch"}/>
-      <Contact/>
-      <Footer/> 
-      </div>
-      <VideoPlayer playState = {playState} setPlayState= {setPlayState}/>
+      <BrowserRouter>
+        <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/booknow" element={<BookNow />}/>
+        </Routes>
+      </BrowserRouter>
     </div>
-  ) 
+    </>
+  )
 }
 
 export default App
