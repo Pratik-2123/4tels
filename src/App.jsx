@@ -24,7 +24,7 @@ const App = () => {
       <About setPlayState = {setPlayState}/>
       <Title subtitle={"Products Gallery"} title = {"Car Photos"}/>
       <Campus/>
-      <Title subtitle={"Testimonials"} title={"What Student Says"}/>
+      <Title subtitle={"Founder"} title={"Mr. Vikas K Patel"}/>
       <Testimonials/>
       <Title subtitle={"Contact Us"} title={"Get in Touch"}/>
       <Contact/>
