@@ -4,6 +4,7 @@ import about_img from '../../assets/about.png'
 import play_icon from '../../assets/play-icon.png'
 import device_walk from '../../assets/device.jpg'
 
+
 const About = ({setPlayState}) => {
   return (
     <div className='About'>
@@ -16,9 +17,9 @@ const About = ({setPlayState}) => {
       <div className='about-right'>
         <h3>About Product</h3>
         <h2>Lets Accelerate the unique experience of pleasurable car driving...</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, excepturi et! Rem natus ex culpa harum vitae veniam magni. Ipsa dignissimos odio sed sit quas.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at nesciunt numquam omnis consequuntur modi.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, delectus obcaecati. Veniam reprehenderit aut numquam corrupti minus doloribus? Facere, asperiores.</p>
+        <p>Our best selling product is the CityClutch - Automatic transmission at affordable cost.</p>
+        <p>This patient product has been evolved over 12 years of research and development and in under constant improvements, keeping abreast with the changes in modern automobiles.</p>
+        <p>Hundreds of car fitted free Demos and free RFQ No appoitment neccesary service on call 1 year warranty on kits.</p>
       </div>
     </div>
   )

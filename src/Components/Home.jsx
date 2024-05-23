@@ -22,7 +22,7 @@ function Home() {
             <About setPlayState={setPlayState} />
             <Title subtitle={"Products Gallery"} title={"Car Photos"} />
             <Campus />
-            <Title subtitle={"Testimonials"} title={"What Student Says"} />
+            <Title subtitle={"Our Founder"} title={"Mr. Vikas Patel"} />
             <Testimonials />
             <Title subtitle={"Contact Us"} title={"Get in Touch"} />
             <Contact />
