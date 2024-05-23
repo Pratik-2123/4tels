@@ -15,10 +15,10 @@ function BookNow() {
                     </div>
                     <div className="m-7">
                         <form action="https://api.web3forms.com/submit" method="POST" encType="multipart/form-data">
-                            {/* <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" /> */}
-                            {/* <input type="hidden" name="subject" value="New Submission from Web3Forms" /> */}
+                            <input type="hidden" name="access_key" value="71b1bb7e-9c51-46d3-94bf-b46426ae71d6" />
+                            <input type="hidden" name="subject" value="New Submission from Web3Forms" />
                             {/* <input type="checkbox" name="botcheck" id="" className="display: none;" /> */}
-                            {/* <input type="hidden" name="redirect" value="https://web3forms.com/success" /> */}
+                            <input type="hidden" name="redirect" value="https://web3forms.com/success" />
 
                             <div className="flex mb-6 space-x-4">
                                 <div className="w-full md:w-1/2">
@@ -43,15 +43,15 @@ function BookNow() {
                                 </div>
                             </div>
 
-                            <div className="mb-6">
+                            {/* <div className="mb-6">
                                 <label htmlFor="message" className="block mb-2 text-sm text-gray-600 dark:text-gray-400">Upload RC book</label>
                                 <input type="file" id="attachment" name="attachment" accept="image/jpeg,image/png" required />
-                            </div>
+                            </div> */}
                             <div className="mb-6">
                                 <button type="submit" className="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none">
                                     Book Now
                                 </button>
-                            </div>
+                            </div> 
                         </form>
                     </div>
                 </div>
