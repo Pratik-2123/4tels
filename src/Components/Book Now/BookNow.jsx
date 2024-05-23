@@ -33,13 +33,13 @@ function BookNow() {
 
                             <div className="flex mb-6 space-x-4">
                                 <div className="w-full md:w-1/2">
-                                    <label htmlFor="email" className="block mb-2 text-sm text-gray-600 dark:text-gray-400">Email Address</label>
-                                    <input type="email" name="email" id="email" placeholder="you@company.com" required className="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+                                    <label htmlFor="vehicle" className="block mb-2 text-sm text-gray-600 dark:text-gray-400">Vehicle number</label>
+                                    <input type="text" name="vehicle" id="vehicle" placeholder="HR 25 DQ XXXX" required className="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
                                 </div>
 
                                 <div className="w-full md:w-1/2">
                                     <label htmlFor="phone" className="block text-sm mb-2 text-gray-600 dark:text-gray-400">Phone Number</label>
-                                    <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required className="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+                                    <input type="text" name="phone" id="phone" placeholder="+91 987654XXXX" required className="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
                                 </div>
                             </div>
 
