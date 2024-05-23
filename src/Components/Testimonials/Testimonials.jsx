@@ -14,15 +14,15 @@ const Testimonials = () => {
     let tx = 0;
 
     const slideForward = () => {
-        if(tx > -50) {
-            tx -= 20
+        if(tx > -75) {
+            tx -= 25
         }
         slider.current.style.transform = `translateX(${tx}%)`
     }
 
     const slideBackward = () => {
         if(tx < 0) {
-            tx += 20
+            tx += 25
         }
         slider.current.style.transform = `translateX(${tx}%)`
     }
@@ -55,18 +55,18 @@ const Testimonials = () => {
                             {/* <span>Founder & CEO [4Tel's Automation]</span> */}
                         </div>
                     </div>
-                    <p>Our Vision is to provide a unique experience of regular car driving, We had already captured market of india and nepal, and now setting a vision to move globally. We intend to accomplish our purpose by cultivating a happy, high quality, results driven work atmosphere that fosters long term connections. the results we deliver to our customers are how we measure our performance. Our ethics are based on our commitment to provide superior client service</p>
+                    <p>Our Vision is to provide a unique experience of regular car driving, We had already captured market of india and nepal, and now setting a vision to move globally. </p>
                 </motion.div>
             </li>
             <li>
                 <motion.div className="slide">
                     <div className="user-info">
                         <div>
-                            <h3>Our Mission</h3>
+                            <h3>Our Core Values</h3>
                             {/* <span>Founder & CEO [4Tel's Automation]</span> */}
                         </div>
                     </div>
-                    <p>We intend to accomplish our purpose by cultivating a happy, high quality, results driven work atmosphere that fosters long term connections. the results we deliver to our customers are how we measure our performance. Our ethics are based on our commitment to provide superior client service</p>
+                    <p>4Tels Automation's basic values of communication. commitment and great client service run through everything they do. We pay close attention to our customers need and take to holistic approach to thier comfortable driving requirements. We're proud of our unwavering commitmentto maximising the value of our client's automotive interests</p>
                 </motion.div>
             </li>
             <li>
@@ -78,18 +78,6 @@ const Testimonials = () => {
                         </div>
                     </div>
                     <p>4Tels Automation is an Indian based automation company provudes several services for most comfortable driving experience. 4Tels Automation was founded by a middle class, small town boy, named Mr. Vikas Patel, on late 2018 as an automobile modification company "4Tels Automation". We have designed several bikes and Cars. As market needs some evolution as market grows generation to generation. We have shaken hands with several personalities and founded most suitable products like CITYCLUTCH. Not only in India, we have grown our roots to Indonesia as well.
-                    </p>
-                </motion.div>
-            </li>
-            <li>
-                <motion.div className="slide">
-                    <div className="user-info">
-                        <div>
-                            <h3>Our Core values</h3>
-                            {/* <span>Founder & CEO [4Tel's Automation]</span> */}
-                        </div>
-                    </div>
-                    <p>4Tels Automation's basic values of communication. commitment and great client service run through everything they do. We pay close attention to our customers need and take to holistic approach to thier comfortable driving requirements. We're proud of our unwavering commitmentto maximising the value of our client's automotive interests
                     </p>
                 </motion.div>
             </li>

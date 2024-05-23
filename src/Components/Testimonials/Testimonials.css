@@ -27,7 +27,7 @@
 
 .slider ul{
     display: flex;
-    width: 700%;
+    width: 650%;
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -39,7 +39,7 @@
 }
 
 .slide{
-    max-width: 65%;
+    max-width: 60%;
     box-shadow: 0 0 20px rgba(0,0,0,0.05);
     background-color: #c9ccf7;
     padding: 40px;
