@@ -3,6 +3,8 @@
  import logo from '../../assets/logo.png'
  import { Link } from 'react-scroll'
  import menu_icon from '../../assets/menu-icon.png'
+ import {motion} from 'framer-motion'
+
  
  const Navbar = () => {
 

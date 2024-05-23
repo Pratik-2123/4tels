@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="overlay"></div>
       <video className= 'videoBg' src={videoBg} autoPlay loop muted/>
       <div className="hero-text">
-        
+      
       
       </div>
     </div>

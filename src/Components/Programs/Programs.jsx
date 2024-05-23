@@ -22,10 +22,10 @@ const Programs = () => {
 
   return (
     <motion.div className='Programs' 
-    ref={ref} 
-    style={{
-      scale:scaleProgress, opacity:scrollYProgress
-      }}
+    // ref={ref} 
+    // style={{
+    //   scale:scaleProgress, opacity:scrollYProgress
+    //   }}
     >
       <motion.div className="program" whileHover={{scale: 1.2}}>
         <img src={downloadImg} alt="" />

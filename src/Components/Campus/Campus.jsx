@@ -12,6 +12,20 @@ import car4 from '../../assets/car4.jpg'
 
 import {motion} from 'framer-motion'
 
+
+const buttonVariants = {
+  hover: {
+    scale: 1.05,
+    textShadow: "0px 0px 8px rgba(255,255,255)",
+    boxShadow: "0px 0px 8px rgba(255,255,255)",
+    transition: {
+      duration: 0.7,
+      repeat: Infinity
+    }
+  }
+}
+
+
 const Campus = () => {
 
   return (
@@ -22,7 +36,7 @@ const Campus = () => {
         <motion.img src={car3} alt="" whileHover={{scale: 1.2}}/>
         <motion.img src={car4} alt="" whileHover={{scale: 1.2}}/>
       </div>
-      <button className='btn dark-btn'>See more here <img src={white_arrow} alt="" /></button>
+      <motion.button className='btn dark-btn' variants={buttonVariants} whileHover="hover">See more here <img src={white_arrow} alt="" /></motion.button>
     </div>
   )
 }
