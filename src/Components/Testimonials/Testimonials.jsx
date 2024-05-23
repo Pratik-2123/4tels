@@ -15,14 +15,14 @@ const Testimonials = () => {
 
     const slideForward = () => {
         if(tx > -50) {
-            tx -= 33
+            tx -= 20
         }
         slider.current.style.transform = `translateX(${tx}%)`
     }
 
     const slideBackward = () => {
         if(tx < 0) {
-            tx += 33
+            tx += 20
         }
         slider.current.style.transform = `translateX(${tx}%)`
     }
@@ -51,11 +51,11 @@ const Testimonials = () => {
                 <motion.div className="slide">
                     <div className="user-info">
                         <div>
-                            <h3>Our Vision</h3>
+                            <h3>Our Vision & Mission</h3>
                             {/* <span>Founder & CEO [4Tel's Automation]</span> */}
                         </div>
                     </div>
-                    <p>Our Vision is to provide a unique experience of regular car driving, We had already captured market of india and nepal, and now setting a vision to move globally.</p>
+                    <p>Our Vision is to provide a unique experience of regular car driving, We had already captured market of india and nepal, and now setting a vision to move globally. We intend to accomplish our purpose by cultivating a happy, high quality, results driven work atmosphere that fosters long term connections. the results we deliver to our customers are how we measure our performance. Our ethics are based on our commitment to provide superior client service</p>
                 </motion.div>
             </li>
             <li>
