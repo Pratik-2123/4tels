@@ -11,12 +11,7 @@ const Hero = () => {
       <div className="overlay"></div>
       <video className= 'videoBg' src={videoBg} autoPlay loop muted/>
       <div className="hero-text">
-        <h1>We Ensure better drive with 4-Tels Automation</h1>
-
-        <motion.button className='btn' >
-          Explore more 
-          <img src={arrow} alt="" />
-        </motion.button>
+        
       
       </div>
     </div>

@@ -34,6 +34,7 @@
     display: flex;
     align-items: center;
     margin: 20px 0;
+    cursor: pointer;
 }
 
 .contact-col ul li img{

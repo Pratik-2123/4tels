@@ -15,7 +15,7 @@ function BookNow() {
                     </div>
                     <div className="m-7">
                         <form action="https://api.web3forms.com/submit" method="POST" encType="multipart/form-data">
-                            <input type="hidden" name="access_key" value="71b1bb7e-9c51-46d3-94bf-b46426ae71d6" />
+                            <input type="hidden" name="access_key" value="85cf7ffd-6bc9-4411-af03-04992a095bac" />
                             <input type="hidden" name="subject" value="New Submission from Web3Forms" />
                             {/* <input type="checkbox" name="botcheck" id="" className="display: none;" /> */}
                             <input type="hidden" name="redirect" value="https://web3forms.com/success" />

@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 import downloadImg from '../../assets/Download_Details_img.png'
 import fillDetailsImg from '../../assets/Fill_details_img.png'
 import BookNowImg from '../../assets/Book_now_img.png'
-
+import cityClutchPdf from '../../assets/CITYCLUTH.pdf'
 
 const Programs = () => {
 
@@ -29,10 +29,14 @@ const Programs = () => {
     >
       <motion.div className="program" whileHover={{scale: 1.2}}>
         <img src={downloadImg} alt="" />
+
+        <a href={cityClutchPdf} download="CityClutch">
         <div className="caption">
             <img src={download} alt="" />
             <p>Download Details</p>
         </div>
+        </a>
+
       </motion.div> 
 
       <motion.div className="program" whileHover={{scale: 1.2}}>
@@ -44,7 +48,14 @@ const Programs = () => {
         </div></Link>
       </motion.div>
 
-      <motion.div className="program" whileHover={{scale: 1.2}}>
+      <motion.div className="program" whileHover={{scale: 1.2}}
+        onClick={
+          () => {
+            window.scrollTo({ top : 3100, behavior: 'smooth' })
+          }
+        }
+      >
+      
         <img src={fillDetailsImg} alt="" />
         <div className="caption">
             <img src={fill} alt="" />

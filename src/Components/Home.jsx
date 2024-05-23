@@ -17,7 +17,7 @@ function Home() {
         <>
         <Navbar />
         <Hero /><div className="container">
-            <Title subtitle={"Our Program"} title={"What we Offer"} />
+            <Title subtitle={"Our Services"} title={"What we Offer"} />
             <Programs />
             <About setPlayState={setPlayState} />
             <Title subtitle={"Products Gallery"} title={"Car Photos"} />
