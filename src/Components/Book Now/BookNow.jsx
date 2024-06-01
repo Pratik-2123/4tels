@@ -1,7 +1,10 @@
 import React from 'react'
-
+// import dotenv from 'dotenv';
+// dotenv.config()
+// import 'dotenv/config'
 function BookNow() {
   return (
+    // dotenv.config()
     <div className="flex items-center min-h-screen bg-gray-100 dark:bg-gray-900">
             <div className="container mx-auto">
                 <div className="max-w-xl mx-auto my-10 bg-white p-5 rounded-md shadow-sm">
